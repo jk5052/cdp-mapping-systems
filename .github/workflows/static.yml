@@ -13,6 +13,7 @@ on:
     #
     # paths:
     - Tutorials/sample-book/_build
+  workflow_dispatch:
 
 # This job installs dependencies, builds the book, and pushes it to `gh-pages`
 jobs:
@@ -69,7 +70,7 @@ jobs:
 #     branches: ["main"]
 
 #   # Allows you to run this workflow manually from the Actions tab
-#   workflow_dispatch:
+  # workflow_dispatch:
 
 # # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 # permissions:
