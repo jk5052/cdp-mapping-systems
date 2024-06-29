@@ -25,7 +25,7 @@ Furthermore, students should develop a deeper understanding of how spatial data 
 ## Course Organization / Communication
 
 
-Class meets on Tuesdays and Thursday at **xx_where_xx** from 6-8pm. Weeks will generally be organized as follows:
+Class meets on Tuesdays and Thursday in 300 Buell South from 6-8pm. Weeks will generally be organized as follows:
 **Tuesday**: Lecture, reading discussion, review of technical concepts
 **Thursday**: Tutorials, desk crits for exercises and final project
 
