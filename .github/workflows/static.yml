@@ -4,16 +4,13 @@ name: deploy-book
 on:
   push:
     branches:
-
-      - master
       - main
-      - feat/jupyter-book
       # If your git repository has the Jupyter Book within some-subfolder next to
       # unrelated files, you can make this run only if a file within that specific
       # folder has been modified.
       #
       # paths:
-      - Tutorials/sample-book/_build
+      # - Tutorials/sample-book/_build
 
   workflow_dispatch:
 
