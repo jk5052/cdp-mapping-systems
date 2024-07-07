@@ -8,12 +8,11 @@ Repository for CDP Mapping Systems summer 2024 course
 - [Assignment Descriptions](Assignment_Descriptions): this folder contains the descriptions for all assignments in the course.
 - [Assignments](Assignments): You will submit your assignments here, based on the assignment descriptions.
 - [Tutorial Notebooks](Tutorials): this folder contains the tutorial notebooks for the course. These are the notebooks that we will work through in class.
-- [Book](Book): this folder will contain your assignment outputs and will compile into your course project website. You will never have to manually add anything to this folder; a github action will automatically update it with your assignment outputs.
 
 ## Getting started
 
 1. Install [VSCode](https://code.visualstudio.com/)
-2. Clone the repository
+2. Join course [Github page](https://github.com/mapping-systems/cdp-mapping-systems) from the invitation email I send. Fork the repository to your account and clone it to your local machine.
 3. Create a new Python environment. I recommend using [Conda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html) for this, but you can also use virtualenv. This will protect our system Python installation from any changes we make.
    1. If you're using Conda, you can create a new environment with the following command:
       ```
