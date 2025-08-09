@@ -1,1 +1,3 @@
-{"type":"FeatureCollection","features":[{"type":"Feature","properties":{"name":"MoMA"},"geometry":{"type":"Point","coordinates":[-73.9776,40.7614]}},{"type":"Feature","properties":{"name":"Whitney Museum"},"geometry":{"type":"Point","coordinates":[-74.0089,40.7396]}},{"type":"Feature","properties":{"name":"Guggenheim Museum"},"geometry":{"type":"Point","coordinates":[-73.959,40.783]}},{"type":"Feature","properties":{"name":"Cooper Hewitt Museum"},"geometry":{"type":"Point","coordinates":[-73.958,40.7844]}},{"type":"Feature","properties":{"name":"The Metropolitan Museum of Art"},"geometry":{"type":"Point","coordinates":[-73.9632,40.7794]}},{"type":"Feature","properties":{"name":"New Museum"},"geometry":{"type":"Point","coordinates":[-73.9928,40.7223]}}]}
+version https://git-lfs.github.com/spec/v1
+oid sha256:19dde241600eb1d150d44795fea601a3d234470c324cd95dba32c713d2f6cc2e
+size 763
