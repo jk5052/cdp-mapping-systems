@@ -4,3 +4,21 @@ __pycache__/
 venv/
 .streamlit/
 .DS_Store
+
+# Large data files
+data/nyc_qgis/
+data/emotional_data_movie/node_modules/
+*.geojson
+*.dbf
+*.shp
+*.shx
+*.prj
+*.cpg
+*.dxf
+*.qmd
+*.gpkg
+*.IGS
+*.toe
+*.tx
+*.png
+generated_maps/
