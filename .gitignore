@@ -1,0 +1,15 @@
+Data/*
+**/.DS_Store
+.DS_Store
+Tutorials/cache/
+.history/
+wip/
+Book/
+_config.yml
+_toc.yml
+
+# MyST build outputs
+_build
+/node_modules
+/.history
+/Tutorials/Data
