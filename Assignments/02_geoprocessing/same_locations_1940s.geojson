@@ -1,0 +1,90 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Financial District - Conwell Building Area",
+        "decade": "1940s",
+        "original_function": "banking and financial services",
+        "building_type": "commercial office buildings",
+        "neighborhood_character": "business district, formal banking",
+        "creative_potential": "none - strictly commercial",
+        "source": "NYC_Tax_Photos_1940s",
+        "current_use": "Conwell Coffee Hall creative workspace"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.0062, 40.7074]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "SoHo - Manufacturing District",
+        "decade": "1940s", 
+        "original_function": "textile manufacturing and warehouses",
+        "building_type": "industrial loft buildings",
+        "neighborhood_character": "working class, industrial production",
+        "creative_potential": "low - purely industrial use",
+        "source": "NYC_Tax_Photos_1940s",
+        "current_use": "Bibliotheque bookstore and wine bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.0006, 40.7242]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Midtown - Residential and Early Cultural",
+        "decade": "1940s",
+        "original_function": "established cultural institutions and upscale residential",
+        "building_type": "museums, apartment buildings",
+        "neighborhood_character": "cultural elite, formal institutional access",
+        "creative_potential": "institutional only - very exclusive",
+        "source": "NYC_Tax_Photos_1940s",
+        "current_use": "MoMA and surrounding museums"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.9776, 40.7614]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Union Square Area",
+        "decade": "1940s",
+        "original_function": "mixed commercial and political gathering space",
+        "building_type": "older commercial buildings, meeting halls",
+        "neighborhood_character": "political rallies, labor organizing, diverse",
+        "creative_potential": "moderate - political and social activism",
+        "source": "NYC_Tax_Photos_1940s",
+        "current_use": "major subway hub and people watching"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.99041633, 40.735066]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "East Village - Working Class Residential",
+        "decade": "1940s",
+        "original_function": "immigrant tenements and small businesses",
+        "building_type": "tenement buildings, corner shops",
+        "neighborhood_character": "immigrant families, working class community",
+        "creative_potential": "emerging - community gathering spaces",
+        "source": "NYC_Tax_Photos_1940s",
+        "current_use": "trendy neighborhood exploration and cafes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.99107, 40.730054]
+      }
+    }
+  ]
+}

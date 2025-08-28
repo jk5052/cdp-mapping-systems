@@ -1,0 +1,405 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Conwell Coffee Hall",
+        "notes": "Spacious, outlets, WiFi",
+        "category": "cafe",
+        "visit_frequency": "weekly",
+        "primary_activity": "focused_work"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.0062, 40.7074]
+      }
+    },
+    {
+      "type": "Feature", 
+      "properties": {
+        "name": "Bibliotheque",
+        "notes": "Book-themed, WiFi, outlets",
+        "category": "cafe",
+        "visit_frequency": "weekly",
+        "primary_activity": "reading"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.0006, 40.7242]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Caffe Reggio", 
+        "notes": "Historic cafe, classic vibe, WiFi",
+        "category": "cafe",
+        "visit_frequency": "monthly",
+        "primary_activity": "people_watching"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.0001, 40.7301]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Hungarian Pastry Shop",
+        "notes": "Cultural, writing atmosphere, no WiFi",
+        "category": "cafe",
+        "visit_frequency": "monthly", 
+        "primary_activity": "writing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.9637, 40.8037]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Remi Flowers & Coffee",
+        "notes": "Flowers & coffee, quiet space",
+        "category": "cafe",
+        "visit_frequency": "monthly",
+        "primary_activity": "sketching"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.9701, 40.7579]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Paper Coffee",
+        "notes": "Highly rated, study-friendly", 
+        "category": "cafe",
+        "visit_frequency": "weekly",
+        "primary_activity": "studying"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.9876, 40.7466]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Lost Draft",
+        "notes": "Cozy, WiFi, study-friendly",
+        "category": "cafe",
+        "visit_frequency": "weekly",
+        "primary_activity": "studying"
+      },
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [-74.0031, 40.715]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "NY Public Library - Schwarzman",
+        "notes": "Public study space, quiet, WiFi",
+        "category": "library",
+        "visit_frequency": "weekly",
+        "primary_activity": "research"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.9822, 40.7532]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Watch House NY",
+        "notes": "Modern, spacious, WiFi",
+        "category": "cafe", 
+        "visit_frequency": "monthly",
+        "primary_activity": "focused_work"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.9778, 40.7605]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "12 Matcha",
+        "notes": "Matcha specialist cafe, quiet, WiFi",
+        "category": "cafe",
+        "visit_frequency": "monthly",
+        "primary_activity": "reading"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.9939, 40.7265]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Silence Please",
+        "notes": "Quiet workspace, study-focused cafe",
+        "category": "cafe",
+        "visit_frequency": "weekly", 
+        "primary_activity": "focused_work"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.9935, 40.7184]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "MoMA",
+        "category": "museum",
+        "visit_frequency": "monthly",
+        "primary_activity": "observation"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.9776, 40.7614]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Whitney Museum",
+        "category": "museum",
+        "visit_frequency": "monthly",
+        "primary_activity": "contemporary_art"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.0089, 40.7396]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Guggenheim Museum", 
+        "category": "museum",
+        "visit_frequency": "seasonally",
+        "primary_activity": "architecture_art"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.959, 40.783]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cooper Hewitt Museum",
+        "category": "museum",
+        "visit_frequency": "seasonally",
+        "primary_activity": "design_study"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.958, 40.7844]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Metropolitan Museum of Art",
+        "category": "museum",
+        "visit_frequency": "monthly", 
+        "primary_activity": "exploration"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.9632, 40.7794]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "New Museum",
+        "category": "museum",
+        "visit_frequency": "monthly",
+        "primary_activity": "experimental_art"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.9928, 40.7223]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "14 St-Union Sq",
+        "category": "subway_station",
+        "routes": "4,5,6,L,N,Q,R,W",
+        "visit_frequency": "daily",
+        "primary_activity": "people_watching"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.99041633, 40.735066]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Grand Central-42 St",
+        "category": "subway_station",
+        "routes": "4,5,6,7,S", 
+        "visit_frequency": "weekly",
+        "primary_activity": "commuting"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.97735933, 40.751992]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Times Sq-42 St",
+        "category": "subway_station",
+        "routes": "1,2,3,7,A,C,E,N,Q,R,W,S",
+        "visit_frequency": "weekly",
+        "primary_activity": "people_watching"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.9875808, 40.755746]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "28 St",
+        "category": "subway_station", 
+        "routes": "6",
+        "visit_frequency": "weekly",
+        "primary_activity": "cafe_hopping"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.984264, 40.74307]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "23 St",
+        "category": "subway_station",
+        "routes": "6",
+        "visit_frequency": "weekly",
+        "primary_activity": "cafe_hopping"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.986599, 40.739864]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Astor Pl",
+        "category": "subway_station",
+        "routes": "6",
+        "visit_frequency": "weekly",
+        "primary_activity": "exploration"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.99107, 40.730054]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Spring St",
+        "category": "subway_station",
+        "routes": "6",
+        "visit_frequency": "monthly",
+        "primary_activity": "gallery_hopping"
+      },
+      "geometry": {
+        "type": "Point", 
+        "coordinates": [-73.997141, 40.722301]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "59 St-Columbus Circle",
+        "category": "subway_station",
+        "routes": "1,A,C,B,D",
+        "visit_frequency": "monthly",
+        "primary_activity": "museum_access"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.9818325, 40.7682715]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "86 St",
+        "category": "subway_station",
+        "routes": "4,5,6",
+        "visit_frequency": "monthly",
+        "primary_activity": "museum_access"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.955589, 40.779492]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "77 St",
+        "category": "subway_station",
+        "routes": "6",
+        "visit_frequency": "monthly",
+        "primary_activity": "museum_access"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.959874, 40.77362]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Canal St",
+        "category": "subway_station",
+        "routes": "1", 
+        "visit_frequency": "monthly",
+        "primary_activity": "urban_sketching"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.006277, 40.722854]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "14 St/8 Av",
+        "category": "subway_station",
+        "routes": "A,C,E,L",
+        "visit_frequency": "monthly",
+        "primary_activity": "neighborhood_exploration"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.002134, 40.740335]
+      }
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Routes NYC: 1940s vs 2025 Real Photos</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <style>
+        body { margin: 0; font-family: Arial, sans-serif; background: #f5f5f5; }
+        #map { height: 100vh; width: 100%; }
+        #status {
+            position: absolute; top: 10px; left: 10px; background: white;
+            padding: 10px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            z-index: 1000; max-width: 300px;
+        }
+        .comparison-popup { max-width: 380px; }
+        .comparison-popup h4 { margin: 0 0 10px 0; color: #333; }
+        .then-now-container { display: flex; gap: 15px; margin-top: 10px; }
+        .time-section { flex: 1; }
+        .time-section h5 { margin: 0 0 5px 0; font-size: 14px; }
+        .time-section.now h5 { color: #2196F3; }
+        .time-section.then h5 { color: #FF5722; }
+        .time-section p { margin: 3px 0; font-size: 12px; line-height: 1.3; }
+    </style>
+</head>
+<body>
+    <div id="status">Loading...</div>
+    <div id="map"></div>
+    
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+        const statusDiv = document.getElementById('status');
+        const map = L.map('map').setView([40.7589, -73.9851], 13);
+        
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+        
+        // 1940s images mapping
+        const imageMap1940s = {
+            'Conwell Coffee Hall': 'Conwell_Coffee_ Hall_40s.png',
+            'Bibliotheque': 'Bibliotheque_40s.png',
+            'MoMA': 'Moma_40s.png',
+            'Whitney Museum': 'New_Museum_40s.png',
+            'Guggenheim Museum': 'Guggenheim_Museum.40s.png',
+            'Cooper Hewitt Museum': 'Cooper_Hewitt_40s.png',
+            'NY Public Library - Schwarzman': 'NY_Public_Library_Schwarzman_40s.png',
+            'Watch House NY': 'Watch_House.40s.png',
+            'Remi Flowers & Coffee': 'Remi_Flower_ Coffee.40s.png',
+            'Paper Coffee': 'Paper_coffee_40s.png',
+            'The Lost Draft': 'The_Lost_Draft_40s.png',
+            '12 Matcha': '12_Matcha_40s.png',
+            'Silence Please': 'Silence_Please_40s.png',
+            'Caffe Reggio': 'Caffe_Reggio_40s.png',
+            '14 St-Union Sq': 'Union_Square_40s.png',
+            'Times Sq-42 St': 'Time_Square_40s.png',
+            'Grand Central-42 St': 'Grand_Central_40s.png',
+            'New Museum': 'New_Museum_40s.png'
+        };
+        
+        // Current (2025) images mapping
+        const imageMapNow = {
+            'Conwell Coffee Hall': 'Conwell_Coffee_Hall_now.jpeg',
+            'MoMA': 'Moma_now.png',
+            'Whitney Museum': 'New_Museum_now.jpeg',
+            'Guggenheim Museum': 'guggenheim_Museum_now.png',
+            'Cooper Hewitt Museum': 'Cooper_Hewitt_now.png',
+            'NY Public Library - Schwarzman': 'NY_Public_Library_Schwarzman_now.png',
+            'Watch House NY': 'Watch_House_now.jpg',
+            'Remi Flowers & Coffee': 'Remi_flower_coffee_now.png',
+            'Paper Coffee': 'Paper_Coffee_now.jpeg',
+            'The Lost Draft': 'The_Lost_Draft_now.jpg',
+            '12 Matcha': '12_Matcha_now.jpg',
+            'Silence Please': 'Silence_Please_now.jpeg',
+            'Caffe Reggio': 'Caffe Reggio_now.jpeg',
+            '14 St-Union Sq': 'Union_Square_now.jpeg',
+            'New Museum': 'New_Museum_now.jpeg'
+        };
+        
+        function createPopup(feature2025, feature1940s) {
+            const image1940s = imageMap1940s[feature2025.properties.name];
+            const imageNow = imageMapNow[feature2025.properties.name];
+            
+            const imageHtml1940s = image1940s ? 
+                `<img src="images/${image1940s}" style="width:100%; max-width:170px; margin:5px 0; border-radius:4px;" alt="1940s ${feature2025.properties.name}">` : 
+                '<p style="font-style:italic; color:#666;">No historical image</p>';
+            
+            const imageHtmlNow = imageNow ? 
+                `<img src="images/${imageNow}" style="width:100%; max-width:170px; margin:5px 0; border-radius:4px;" alt="Current ${feature2025.properties.name}">` : 
+                '<p style="font-style:italic; color:#666;">No current image</p>';
+            
+            return `
+                <div class="comparison-popup">
+                    <h4>${feature2025.properties.name}</h4>
+                    <div class="then-now-container">
+                        <div class="time-section then">
+                            <h5>1940s - Then</h5>
+                            ${imageHtml1940s}
+                            <p><strong>Function:</strong> ${feature1940s ? feature1940s.properties.original_function : 'Historical context'}</p>
+                        </div>
+                        <div class="time-section now">
+                            <h5>2025 - Now</h5>
+                            ${imageHtmlNow}
+                            <p><strong>Category:</strong> ${feature2025.properties.category}</p>
+                            <p><strong>My Use:</strong> ${feature2025.properties.primary_activity}</p>
+                            <p><strong>Frequency:</strong> ${feature2025.properties.visit_frequency}</p>
+                        </div>
+                    </div>
+                    <p style="font-size:10px; color:#666; margin-top:8px; text-align:center;">Historical: NYC Tax Photos 1940s | Current: Personal Photos 2025</p>
+                </div>
+            `;
+        }
+        
+        async function loadData() {
+            try {
+                statusDiv.innerHTML = 'Loading data...';
+                
+                const [response2025, response1940s] = await Promise.all([
+                    fetch('reative_routes_nyc.geojson'),
+                    fetch('same_locations_1940s.geojson')
+                ]);
+                
+                const data2025 = await response2025.json();
+                const data1940s = await response1940s.json();
+                
+                console.log('Data loaded:', data2025.features.length, 'current locations');
+                
+                // Add markers with local photos
+                data2025.features.forEach(feature => {
+                    const [lon, lat] = feature.geometry.coordinates;
+                    
+                    let color = '#2196F3';
+                    if (feature.properties.category === 'museum') color = '#9C27B0';
+                    else if (feature.properties.category === 'subway_station') color = '#4CAF50';
+                    else if (feature.properties.category === 'library') color = '#FF9800';
+                    
+                    const corresponding1940s = data1940s.features.find(f => {
+                        const dist = Math.sqrt(
+                            Math.pow(f.geometry.coordinates[0] - feature.geometry.coordinates[0], 2) +
+                            Math.pow(f.geometry.coordinates[1] - feature.geometry.coordinates[1], 2)
+                        );
+                        return dist < 0.01;
+                    });
+                    
+                    L.circleMarker([lat, lon], {
+                        color: color, fillColor: color, fillOpacity: 0.8,
+                        radius: 8, weight: 2
+                    })
+                    .addTo(map)
+                    .bindPopup(createPopup(feature, corresponding1940s));
+                });
+                
+                statusDiv.innerHTML = `✅ Loaded ${data2025.features.length} locations with real photos!`;
+                
+            } catch (error) {
+                console.error('Error:', error);
+                statusDiv.innerHTML = `❌ Error: ${error.message}`;
+            }
+        }
+        
+        loadData();
+    </script>
+</body>
+</html>
