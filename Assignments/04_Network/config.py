@@ -1,0 +1,6 @@
+# config.py
+# API Keys for Cultural Network Analysis
+
+SEOUL_API_KEY = "7546486573646f7436364b5969576f"
+NAVER_CLIENT_ID = "HV2gtZrLLCQ41lspnABu"  
+NAVER_CLIENT_SECRET = "YETU1gSJK2"
