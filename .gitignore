@@ -13,3 +13,4 @@ _build
 /node_modules
 /.history
 /Tutorials/Data
+*.har
