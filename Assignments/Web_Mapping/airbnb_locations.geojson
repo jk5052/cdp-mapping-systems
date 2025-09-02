@@ -1,0 +1,327 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "ip": "142.250.196.138",
+        "url": "https://maps.googleapis.com/maps/vt/pb=!1m4!1m3!1i11!2i1035!3i764!2m3!1e0!2sm!3i746506479!2m5!1e2!2smaps_api!9m2!1e1!2b1!3m9!2sen!3sKR!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!4e1!5m4!1e4!8m2!1e0!1e1!6m13!1e12!2i2!19m1!1e0!20m1!1e0!26m1!4b1!30m1!1f2!39b1!44e1!50e0!23i47083502!23i56565656!26m1!1e2!28i746&authuser=0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.754,
+          35.694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ip": "23.44.173.58",
+        "url": "https://a0.muscache.com/airbnb/static/packages/web/common/frontend/dls-icons/components/IcSystemLockOnDoor32.17a3a953c5.js"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.8844,
+          35.1892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ip": "172.217.175.234",
+        "url": "https://fonts.googleapis.com/css?family=Google+Sans+Text:400&text=%E2%86%90%E2%86%92%E2%86%91%E2%86%93&lang=en"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.754,
+          35.694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ip": "57.144.188.1",
+        "url": "https://www.facebook.com/tr?id=674478425975295&ev=PageView&dl=https%3A%2F%2Fwww.airbnb.com%2Frooms%2F51175807%3Fadults%3D2%26check_in%3D2025-09-30%26check_out%3D2025-10-11%26search_mode%3Dregular_search%26source_impression_id%3Dp3_1756786612_P37tTA5y1WSO-OY-%26previous_page_section_name%3D1000%26federated_search_id%3D4dbf70e8-3536-4800-8490-a5ed9db61615&rl=https%3A%2F%2Fwww.google.com%2F&eid=32f8ce5c-adb8-446b-ac94-523a0655deb7&ud[external_id]=1756786534_EAYWYzZGM4ZGMyZD&fbc=undefined&ud[em]=&ud[ph]=&ud[fn]=&ud[ln]=&ud[db]=&ud[ge]=&ud[ct]=&ud[st]=&ud[cn]=&dpo=&noscript=1&gtmcb=1799534057"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.978,
+          37.5658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ip": "142.250.207.3",
+        "url": "https://maps.gstatic.com/mapfiles/openhand_8_8.cur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.754,
+          35.694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ip": "172.217.175.34",
+        "url": "https://adservice.google.com/ddm/fls/z/src=4620401;type=gen;cat=airbn0;ord=1;num=1616565864;gtm=45j91e58r1h1v874143154z8551874z9894587894za200zb551874zd551874;dc_pre=1;u21=visitor;dma=0;npa=0;gcs=G111;gcd=13n3n3n3n5l1;uaa=arm;uab=64;uafvl=Google%2520Chrome%3B137.0.7151.120%7CChromium%3B137.0.7151.120%7CNot%252FA)Brand%3B24.0.0.0;uamb=0;uam=;uap=macOS;uapv=15.2.0;uaw=0;pscdl=noapi;auiddc=*;em=tv.*;tag_exp=101509157~103116026~103200004~103233427~104527906~104528501~104684208~104684211~104948812~104948813~105427542~105427544;_tu=DA;ps=1;pcor=509857445;s3p=1;_is_sw=f15s0t2;~oref=https%3A%2F%2Fwww.airbnb.com%2F"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.754,
+          35.694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ip": "142.250.196.98",
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/788919195/?random=1130919596&fst=1756786625048&cv=10&fmt=3&label=j-EjCLm-69QaEJvnl_gC&bg=ffffff&guid=ON&u_w=1728&u_h=1117&gtm=45j91e58r1v874143154z8551874z9894587894za200zb551874zd551874&auid=1529956336.1756786537&dma=0&npa=0&gcs=G111&gcd=13n3n3n3n5l1&uaa=arm&uab=64&uafvl=Google%2520Chrome%3B137.0.7151.120%7CChromium%3B137.0.7151.120%7CNot%252FA)Brand%3B24.0.0.0&uamb=0&uam=&uap=macOS&uapv=15.2.0&uaw=0&pscdl=noapi&url=https%3A%2F%2Fwww.airbnb.com%2Frooms%2F51175807%3Fadults%3D2%26check_in%3D2025-09-30%26check_out%3D2025-10-11%26search_mode%3Dregular_search%26source_impression_id%3Dp3_1756786612_P37tTA5y1WSO-OY-%26previous_page_section_name%3D1000%26federated_search_id%3D4dbf70e8-3536-4800-8490-a5ed9db61615&ref=https%3A%2F%2Fwww.google.com%2F&tiba=Bohemian%2BAewol%2BNo.%2B203%2C%2Bsea%2Bview%2C%2BJeju%2BGamsung%2BAccommodation%2B-%2BApartments%2Bfor%2BRent%2Bin%2Bjeju-si%2C%2BJeju%2BProvince%2C%2BSouth%2BKorea%2B-%2BAirbnb&data=event%3Dstay_details%3Baudience_type%3Dvisitor%3Bcheckin_date%3D2025-09-30%3Bcheckout_date%3D2025-10-11%3Bcity%3Djeju-si&ec_mode=c&em=tv.1&value=0&uip=112.221.214.0&tag_exp=101509157~103116026~103200004~103233427~104527906~104528501~104684208~104684211~104948812~104948813~105427542~105427544&_tu=DA&s3p=1&_is_sw=0&ct_cookie_present=false&crd=CPLOsQIIobixAgjR1bECCLHBsQIIsMGxAgixw7ECCIrFsQIIwsmxAgi0xrECCKbZsQII-9ixAgjCz7ECCP_VsQII08WxAgjrzLECCM_OsQII7c6xAgj-zrECCNXPsQII7tCxAgiX1LECSiZ0cmlnZ2VyO25hdmlnYXRpb24tc291cmNlO2V2ZW50LXNvdXJjZWIDCgED&eitems=ChAI8IjVxQYQrILr2MnO4-x9Eh0AJgAcmOU8_39ahgpHPwMOpGF4miwykCoc1kWSpw&fusion_key=ChAI8IjVxQYQ-6nlvqXp5dQ5EiwA2EO4SPnlbukcKnpaIyFho7KKQBstJzr4DGJ3hPw9SSnVWchv-swGKiTa3BoC_Hg&pscrd=IhMIgcyHlpy5jwMVG-AWBR1SYCwzMgwIA2IICAAQABgAIAAyDAgEYggIABAAGAAgADIMCAdiCAgAEAAYACAAMgwICGIICAAQABgAIAAyDAgJYggIABAAGAAgADIMCApiCAgAEAAYACAAMgwIAmIICAAQABgAIAAyDAgLYggIABAAGAAgADIMCBViCAgAEAAYACAAMgwIH2IICAAQABgAIAAyDAgTYggIABAAGAAgADIMCBJiCAgAEAAYACAAOhdodHRwczovL3d3dy5haXJibmIuY29tL0JWQ2hBSThJalZ4UVlROE9pMXVjVFQySnhhRWl3QWZCVFBUWHdXQzZrbXZYandMQ0lkaFNfaFFiM2draGU4X1J6QnJCMjRhSHRtak5ramZfcVVkRUM3SFF6DAgJYggIABAAGAAgAA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.754,
+          35.694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ip": "23.206.175.35",
+        "url": "https://i.sng.link/A6f9up/lo82?_dl=airbnb%3A%2F%2Fd%2Frooms%2F953396092985116818&_p=&pcn=treatment_g4_v&pscn=pdp&pcid=1756786534_EAYWYzZGM4ZGMyZD&_smtype=3&p=macOS&ve=15"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.978,
+          37.5658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ip": "23.44.173.35",
+        "url": "https://www.airbnb.com/api/v2/autocompletes-personalized?locale=en&currency=KRW&country=KR&key=d306zoyjsyarp7ifhu67rjxn52tv0t20&language=en&locale=en&num_results=5&user_input=Jej&api_version=1.2.0&satori_config_token=EhIiQjIiMhISJQASEiISEiJSQjVcFQYVAgqOAQUA&vertical_refinement=homes&region=-1&options=should_filter_by_vertical_refinement%7Chide_nav_results%7Cshould_show_stays%7Csimple_search"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.8844,
+          35.1892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ip": "142.251.222.34",
+        "url": "https://www.googleadservices.com/pagead/conversion/1023009977/?random=998352432&fst=1756786613286&cv=10&fmt=7&label=1WygCKGat-UZELnJ5-cD&bg=ffffff&guid=ON&u_w=1728&u_h=1117&gtm=45j91e58r1v874143154z8551874z9894587894za200zb551874zd551874&auid=1529956336.1756786537&dma=0&npa=0&gcs=G111&gcd=13n3n3n3n5l1&uaa=arm&uab=64&uafvl=Google%2520Chrome%3B137.0.7151.120%7CChromium%3B137.0.7151.120%7CNot%252FA)Brand%3B24.0.0.0&uamb=0&uam=&uap=macOS&uapv=15.2.0&uaw=0&pscdl=noapi&url=https%3A%2F%2Fwww.airbnb.com%2Fs%2FJeju-Island%2Fhomes%3Frefinement_paths%255B%255D%3D%252Fhomes%26place_id%3DChIJtcMT0y1pDDURs0J4dM6N51I%26location_bb%3DQgZDT0L95UtCBMgZQvxSwQ%253D%253D%26acp_id%3D5d670591-4104-4ccc-a97c-bd2af29b4f68%26date_picker_type%3Dcalendar%26checkin%3D2025-09-30%26checkout%3D2025-10-11%26adults%3D2%26search_type%3Dunknown&ref=https%3A%2F%2Fwww.google.com%2F&tiba=Airbnb%2B%7C%2BJeju%2BIsland%2B-%2BVacation%2BRentals%2B%26%2BPlaces%2Bto%2BStay&data=event%3Dsearch_stay%3Baudience_type%3Dvisitor%3Bcity%3DN%2FA%3Bcheckin_date%3D2025-09-30%3Bcheckout_date%3D2025-10-11&bttype=purchase&ec_mode=c&em=tv.1&value=0&uip=112.221.214.0&tag_exp=101509157~103116026~103200004~103233427~104527906~104528501~104684208~104684211~104948812~104948813~105427542~105427544&_tu=DA&s3p=1&_is_sw=0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.754,
+          35.694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ip": "142.251.222.6",
+        "url": "https://ad.doubleclick.net/activity;register_conversion=1;src=4620401;type=gen;cat=airbn0;ord=1;num=1616565864;gtm=45j91e58r1h1v874143154z8551874z9894587894za200zb551874zd551874;dc_pre=1;u21=visitor;dma=0;npa=0;gcs=G111;gcd=13n3n3n3n5l1;uaa=arm;uab=64;uafvl=Google%2520Chrome%3B137.0.7151.120%7CChromium%3B137.0.7151.120%7CNot%252FA)Brand%3B24.0.0.0;uamb=0;uam=;uap=macOS;uapv=15.2.0;uaw=0;pscdl=noapi;auiddc=1529956336.1756786537;em=tv.1;tag_exp=101509157~103116026~103200004~103233427~104527906~104528501~104684208~104684211~104948812~104948813~105427542~105427544;_tu=DA;ps=1;pcor=509857445;s3p=1;~oref=https%3A%2F%2Fwww.airbnb.com%2F?"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.754,
+          35.694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ip": "172.217.174.104",
+        "url": "https://www.googletagmanager.com/gtm.js?id=GTM-46MK"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.754,
+          35.694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ip": "142.251.222.3",
+        "url": "https://www.google.co.kr/pagead/1p-user-list/1023009977/?random=537927437&fst=1756785600000&cv=10&fmt=3&bg=ffffff&guid=ON&u_w=1728&u_h=1117&gtm=45j91e58r1h1v874143154z8551874z9894587894za200zb551874zd551874&url=https%3A%2F%2Fwww.airbnb.com%2F&ref=https%3A%2F%2Fwww.google.com%2F&tiba=Airbnb%2B%7C%2BVacation%2Brentals%2C%2Bcabins%2C%2Bbeach%2Bhouses%2C%2B%26%2Bmore&data=Page_URL%3Dhttps%3A%2F%2Fwww.airbnb.com%2F&auid=1529956336.1756786537&uaa=arm&uab=64&uafvl=Google%2520Chrome%3B137.0.7151.120%7CChromium%3B137.0.7151.120%7CNot%252FA)Brand%3B24.0.0.0&uamb=0&uam=&uap=macOS&uapv=15.2.0&uaw=0&dma=0&npa=0&gcs=G111&gcd=13n3n3n3n5l1&pscdl=noapi&_is_sw=f15s0t2&tag_exp=101509157~103116026~103200004~103233427~104527906~104528501~104684208~104684211~104948812~104948813~105427542~105427544&_tu=DA&is_vtc=1&cid=CAQSfwDZpuyzY4mBV9URy8MMrwJarbcz9Y05yMG2usGvW3K7FTqsGkQ0A4MSiP0GKyNt-E_vtFVrSGj9MUNRBwkmS-BmTqdt7CQ2_LM4MeX-cWBMyN3g1G-PzF4zqfsyUmx4xyU7kMMCuiY6o1EkSkiv4ZVtOTqfEheH7Rg-zC98wNo&random=1142720532&ipr=y"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.754,
+          35.694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ip": "172.217.175.4",
+        "url": "https://www.google.com/pagead/1p-conversion/1023009977/?random=774103036&fst=1756786625031&cv=10&fmt=3&label=VkpyCMGw-W4Qucnn5wM&bg=ffffff&guid=ON&u_w=1728&u_h=1117&gtm=45j91e58r1v874143154z8551874z9894587894za200zb551874zd551874&auid=1529956336.1756786537&dma=0&npa=0&gcs=G111&gcd=13n3n3n3n5l1&uaa=arm&uab=64&uafvl=Google%2520Chrome%3B137.0.7151.120%7CChromium%3B137.0.7151.120%7CNot%252FA)Brand%3B24.0.0.0&uamb=0&uam=&uap=macOS&uapv=15.2.0&uaw=0&pscdl=noapi&url=https%3A%2F%2Fwww.airbnb.com%2Frooms%2F51175807%3Fadults%3D2%26check_in%3D2025-09-30%26check_out%3D2025-10-11%26search_mode%3Dregular_search%26source_impression_id%3Dp3_1756786612_P37tTA5y1WSO-OY-%26previous_page_section_name%3D1000%26federated_search_id%3D4dbf70e8-3536-4800-8490-a5ed9db61615&ref=https%3A%2F%2Fwww.google.com%2F&tiba=Bohemian%2BAewol%2BNo.%2B203%2C%2Bsea%2Bview%2C%2BJeju%2BGamsung%2BAccommodation%2B-%2BApartments%2Bfor%2BRent%2Bin%2Bjeju-si%2C%2BJeju%2BProvince%2C%2BSouth%2BKorea%2B-%2BAirbnb&data=event%3Dstay_details%3Baudience_type%3Dvisitor%3Bcheckin_date%3D2025-09-30%3Bcheckout_date%3D2025-10-11%3Bcity%3Djeju-si&value=0&uip=112.221.214.0&tag_exp=101509157~103116026~103200004~103233427~104527906~104528501~104684208~104684211~104948812~104948813~105427542~105427544&_tu=DA&s3p=1&_is_sw=0&ct_cookie_present=false&crd=CPLOsQIIobixAgjR1bECCLHBsQIIsMGxAgixw7ECCIrFsQIIwsmxAgi0xrECCKXZsQII-9ixAgjCz7ECCNPFsQII68yxAgjPzrECCO3OsQII_s6xAgjVz7ECCO7QsQIIl9SxAkoZdHJpZ2dlcjtuYXZpZ2F0aW9uLXNvdXJjZWIDCgED&fusion_key=ChAI8IjVxQYQ-6nlvqXp5dQ5EiwA2EO4SF7ntvXi6M6p9XT7Y97xiAsM5wJOK_zWbIhPA5KRDZbOqVg3lW7D4BoCVoc&pscrd=IhMIrLWHlpy5jwMVgO8WBR23gw9qMgwIA2IICAAQABgAIAAyDAgEYggIABAAGAAgADIMCAdiCAgAEAAYACAAMgwICGIICAAQABgAIAAyDAgJYggIABAAGAAgADIMCApiCAgAEAAYACAAMgwIAmIICAAQABgAIAAyDAgLYggIABAAGAAgADIMCBViCAgAEAAYACAAMgwIH2IICAAQABgAIAAyDAgTYggIABAAGAAgADIMCBJiCAgAEAAYACAAOhdodHRwczovL3d3dy5haXJibmIuY29tL0JWQ2hBSThJalZ4UVlROE9pMXVjVFQySnhhRWl3QWZCVFBUWUFjcnQzaml3cnRtN1hjbWRWWU1pVHhRTUtoNFpuOEFaUkhkZk9sbnc4N2J5NEE3TTNSV2d6DAgJYggIABAAGAAgAA&is_vtc=1&cid=CAQSfwDZpuyzaFdEaUu3UdFyP_cy6141nUhqO0vvbfXglsxmtceOk8t87BYkBj5XoUS0ANl2eiJS-iCneR8mgNKipo_xfJH3xi5fN0mACa1-jJBeDWr6LtF7Pe9XxLTDK6BLZSuLVG4TBSebEXBj0F7BA4I-Qo_lwwGxjtgzBr5eotQ&eitems=ChAI8IjVxQYQrILr2MnO4-x9Eh0AJgAcmItBx2dBzlrDq1mZnxu6xwjFPZX7qq7-AQ&random=1535250904"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.754,
+          35.694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ip": "172.217.174.106",
+        "url": "https://mapsresources-pa.googleapis.com/v1/styleTables/6e216154d5deee47?configVersion=b691f5aafb38e60e3c2d3c4c322b3247&configSet=roadmap&version=sdk-2985849986529620079"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.754,
+          35.694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ip": "142.250.198.2",
+        "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/788919195/?random=1653876226&fst=1756786594210&cv=10&fmt=3&bg=ffffff&guid=ON&u_w=1728&u_h=1117&gtm=45j91e58r1h1v874143154z8551874z9894587894za200zb551874zd551874&url=https%3A%2F%2Fwww.airbnb.com%2F&ref=https%3A%2F%2Fwww.google.com%2F&tiba=Airbnb%2B%7C%2BVacation%2Brentals%2C%2Bcabins%2C%2Bbeach%2Bhouses%2C%2B%26%2Bmore&data=Page_URL%3Dhttps%3A%2F%2Fwww.airbnb.com%2F&auid=1529956336.1756786537&uaa=arm&uab=64&uafvl=Google%2520Chrome%3B137.0.7151.120%7CChromium%3B137.0.7151.120%7CNot%252FA)Brand%3B24.0.0.0&uamb=0&uam=&uap=macOS&uapv=15.2.0&uaw=0&dma=0&npa=0&gcs=G111&gcd=13n3n3n3n5l1&pscdl=noapi&_is_sw=f15s0t2&tag_exp=101509157~103116026~103200004~103233427~104527906~104528501~104684208~104684211~104948812~104948813~105427542~105427544&_tu=DA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.754,
+          35.694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ip": "35.190.43.134",
+        "url": "https://tr.snapchat.com/p?pid=aafaa522-5bd4-40ec-95ef-948d87eff12b&ev=PAGE_VIEW&v=2.3&rand=663116794&pl=https%3A%2F%2Fwww.airbnb.com%2F&u_hem=&u_hpn=&u_c1=&cdid=1756786534_EAYWYzZGM4ZGMyZD-%2F-2025-09-02T00%3A16%3A33.902-04%3A00&rf=https%3A%2F%2Fwww.google.com%2F&gtmcb=1679163491"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.5785,
+          39.0997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ip": "142.250.198.3",
+        "url": "https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMaxKUBHMdazTgWw.woff2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.754,
+          35.694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ip": "146.75.48.84",
+        "url": "https://ct.pinterest.com/v3/?tid=2614425740829&event=PageVisit&ed[product_category]=ENTER+DATA+VALUE&ed[product_price]=ENTER+DATA+VALUE&pd[em]=&noscript=1&gtmcb=1340483352"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.978,
+          37.5658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ip": "23.206.175.11",
+        "url": "https://i.sng.link/A6f9up/lo82?_dl=airbnb%3A%2F%2Fd%2Frooms%2F762849235656468692&_p=&pcn=treatment_g4_v&pscn=pdp&pcid=1756786534_EAYWYzZGM4ZGMyZD&_smtype=3&p=macOS&ve=15"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.978,
+          37.5658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ip": "61.247.197.74",
+        "url": "https://wcs.naver.net/wcslog.js"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.122,
+          37.3654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ip": "43.250.152.64",
+        "url": "https://ssl.pstatic.net/melona/libs/gfp-nac-module/synchronizer.js"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.112,
+          37.3962
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ip": "216.239.34.181",
+        "url": "https://analytics.google.com/g/s/collect?dma=0&npa=0&gcs=G111&gcd=13n3n3n3n5l1&gtm=45j91e58r1v874143154z8551874z9894587894za200zb551874zd551874&tag_exp=101509157~103116026~103200004~103233427~104527906~104528501~104684208~104684211~104948812~104948813~105427542~105427544&_is_sw=0&_tu=DA&_gsid=2P6Q8PGG16XRRskZJXingRVeiwPhbeGw"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.084,
+          37.422
+        ]
+      }
+    }
+  ]
+}
